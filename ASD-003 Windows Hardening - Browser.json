@@ -1,0 +1,117 @@
+{
+    "description": "Collection of Auditing settings from the settings catalogue required for Essential Eight Maturity. ",
+    "name": "ASD-003 Windows Hardening - Browser",
+    "platforms": "windows10",
+    "settingCount": 8,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateFamily": "none",
+        "templateId": ""
+    },
+    "settings": [
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_browser_allowdevelopertools_0",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_browser_allowdevelopertools",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "0"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_browser_allowdonottrack_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_browser_allowdonottrack",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "1"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_browser_allowflash_0",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_browser_allowflash",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "2"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_browser_allowpasswordmanager_0",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_browser_allowpasswordmanager",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "3"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_browser_allowpopups_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_browser_allowpopups",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "4"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_browser_allowsmartscreen_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_browser_allowsmartscreen",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "5"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_browser_preventaccesstoaboutflagsinmicrosoftedge_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_browser_preventaccesstoaboutflagsinmicrosoftedge",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "6"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_browser_preventsmartscreenpromptoverrideforfiles_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_browser_preventsmartscreenpromptoverrideforfiles",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "7"
+        }
+    ]
+}

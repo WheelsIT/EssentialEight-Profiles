@@ -1,0 +1,26 @@
+{
+    "description": "Collection of Windows Defender Security Center settings from the settings catalogue required for Essential Eight Maturity. \n",
+    "name": "ASD-018 Windows Hardening - Windows Defender Security Center",
+    "platforms": "windows10",
+    "settingCount": 1,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateFamily": "none",
+        "templateId": ""
+    },
+    "settings": [
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_windowsdefendersecuritycenter_disallowexploitprotectionoverride",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "0"
+        }
+    ]
+}

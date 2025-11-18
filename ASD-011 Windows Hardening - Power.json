@@ -1,0 +1,39 @@
+{
+    "description": "Collection of Power settings from the settings catalogue required for Essential Eight Maturity. \n",
+    "name": "ASD-011 Windows Hardening - Power",
+    "platforms": "windows10",
+    "settingCount": 2,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateFamily": "none",
+        "templateId": ""
+    },
+    "settings": [
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_power_turnoffhybridsleeponbattery_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_power_turnoffhybridsleeponbattery",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "0"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_power_turnoffhybridsleeppluggedin_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_power_turnoffhybridsleeppluggedin",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "1"
+        }
+    ]
+}

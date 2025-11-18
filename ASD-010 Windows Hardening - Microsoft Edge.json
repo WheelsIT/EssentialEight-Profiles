@@ -1,0 +1,187 @@
+{
+    "description": "Collection of Microsoft Edge settings from the settings catalogue required for Essential Eight Maturity. \n",
+    "name": "ASD-010 Windows Hardening - Microsoft Edge",
+    "platforms": "windows10",
+    "settingCount": 10,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateFamily": "none",
+        "templateId": ""
+    },
+    "settings": [
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [
+                        {
+                            "choiceSettingValue": {
+                                "children": [],
+                                "value": "device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions_downloadrestrictions_2",
+                                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                            },
+                            "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions_downloadrestrictions",
+                            "auditRuleInformation": null,
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+                        }
+                    ],
+                    "value": "device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "0"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_configuredonottrack_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_configuredonottrack",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "1"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [
+                        {
+                            "choiceSettingValue": {
+                                "children": [],
+                                "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~contentsettings_defaultpopupssetting_defaultpopupssetting_2",
+                                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                            },
+                            "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~contentsettings_defaultpopupssetting_defaultpopupssetting",
+                            "auditRuleInformation": null,
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+                        }
+                    ],
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~contentsettings_defaultpopupssetting_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~contentsettings_defaultpopupssetting",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "2"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [
+                        {
+                            "choiceSettingValue": {
+                                "children": [],
+                                "value": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_dnsoverhttpsmode_dnsoverhttpsmode_off",
+                                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                            },
+                            "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_dnsoverhttpsmode_dnsoverhttpsmode",
+                            "auditRuleInformation": null,
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+                        }
+                    ],
+                    "value": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_dnsoverhttpsmode_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev83diff~policy~microsoft_edge_dnsoverhttpsmode",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "3"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [
+                        {
+                            "choiceSettingValue": {
+                                "children": [],
+                                "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_developertoolsavailability_developertoolsavailability_2",
+                                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                            },
+                            "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_developertoolsavailability_developertoolsavailability",
+                            "auditRuleInformation": null,
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+                        }
+                    ],
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_developertoolsavailability_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_developertoolsavailability",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "4"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_dnsinterceptionchecksenabled_0",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev80diff~policy~microsoft_edge_dnsinterceptionchecksenabled",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "5"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~passwordmanager_passwordmanagerenabled_0",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~passwordmanager_passwordmanagerenabled",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "6"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_smartscreenenabled",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "7"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverride",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "8"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~smartscreen_preventsmartscreenpromptoverrideforfiles",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "9"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "description": "Collection of Experience settings from the settings catalogue required for Essential Eight Maturity. ",
+    "name": "ASD-006 Windows Hardening - Experience",
+    "platforms": "windows10",
+    "settingCount": 3,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateFamily": "none",
+        "templateId": ""
+    },
+    "settings": [
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_experience_allowcortana_0",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_experience_allowcortana",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "0"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [
+                        {
+                            "choiceSettingValue": {
+                                "children": [],
+                                "value": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight_0",
+                                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                            },
+                            "settingDefinitionId": "user_vendor_msft_policy_config_experience_allowthirdpartysuggestionsinwindowsspotlight",
+                            "auditRuleInformation": null,
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+                        },
+                        {
+                            "choiceSettingValue": {
+                                "children": [],
+                                "value": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures_0",
+                                "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                            },
+                            "settingDefinitionId": "device_vendor_msft_policy_config_experience_allowwindowsconsumerfeatures",
+                            "auditRuleInformation": null,
+                            "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+                        }
+                    ],
+                    "value": "user_vendor_msft_policy_config_experience_allowwindowsspotlight_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "user_vendor_msft_policy_config_experience_allowwindowsspotlight",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "1"
+        },
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_experience_showlockonusertile_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_experience_showlockonusertile",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "2"
+        }
+    ]
+}

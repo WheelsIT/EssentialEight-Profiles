@@ -1,0 +1,26 @@
+{
+    "description": "Collection of Lanman Workstation settings from the settings catalogue required for Essential Eight Maturity.",
+    "name": "ASD-007 Windows Hardening - Lanman Workstation",
+    "platforms": "windows10",
+    "settingCount": 1,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateFamily": "none",
+        "templateId": ""
+    },
+    "settings": [
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons_0",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_lanmanworkstation_enableinsecureguestlogons",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "0"
+        }
+    ]
+}

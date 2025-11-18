@@ -1,0 +1,287 @@
+{
+    "description": "Collection of User Rights settings from the settings catalogue required for Essential Eight Maturity. \n",
+    "name": "ASD-016 Windows Hardening - User Rights",
+    "platforms": "windows10",
+    "settingCount": 17,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateFamily": "none",
+        "templateId": ""
+    },
+    "settings": [
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": " BUILTIN\\Remote Desktop Users",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_accessfromnetwork",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "0"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Users",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_allowlocallogon",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "1"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_backupfilesanddirectories",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "2"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "NT AUTHORITY\\SERVICE",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "NT AUTHORITY\\NETWORK SERVICE",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "NT AUTHORITY\\LOCAL SERVICE",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_createglobalobjects",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "3"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_createpagefile",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "4"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_debugprograms",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "5"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "NT AUTHORITY\\Local account",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_denyaccessfromnetwork",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "6"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "NT AUTHORITY\\Local account",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_denyremotedesktopserviceslogon",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "7"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "NT AUTHORITY\\SERVICE",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "NT AUTHORITY\\NETWORK SERVICE",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "NT AUTHORITY\\LOCAL SERVICE",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    },
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_impersonateclient",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "8"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_loadunloaddevicedrivers",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "9"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": " BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_manageauditingandsecuritylog",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "10"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": " BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_managevolume",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "11"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_modifyfirmwareenvironment",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "12"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_profilesingleprocess",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "13"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_remoteshutdown",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "14"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": " BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_restorefilesanddirectories",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "15"
+        },
+        {
+            "settingInstance": {
+                "simpleSettingCollectionValue": [
+                    {
+                        "value": "BUILTIN\\Administrators",
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                    }
+                ],
+                "settingDefinitionId": "device_vendor_msft_policy_config_userrights_takeownership",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance"
+            },
+            "id": "16"
+        }
+    ]
+}

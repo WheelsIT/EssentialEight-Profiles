@@ -1,0 +1,26 @@
+{
+    "description": "Collection of Smart Screen settings from the settings catalogue required for Essential Eight Maturity. \n",
+    "name": "ASD-013 Windows Hardening - Smart Screen",
+    "platforms": "windows10",
+    "settingCount": 1,
+    "technologies": "mdm",
+    "templateReference": {
+        "templateFamily": "none",
+        "templateId": ""
+    },
+    "settings": [
+        {
+            "settingInstance": {
+                "choiceSettingValue": {
+                    "children": [],
+                    "value": "device_vendor_msft_policy_config_smartscreen_preventoverrideforfilesinshell_1",
+                    "@odata.type": "microsoft.graph.deviceManagementConfigurationChoiceSettingValue"
+                },
+                "settingDefinitionId": "device_vendor_msft_policy_config_smartscreen_preventoverrideforfilesinshell",
+                "auditRuleInformation": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            "id": "0"
+        }
+    ]
+}
